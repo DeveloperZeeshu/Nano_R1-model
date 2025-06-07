@@ -12,9 +12,10 @@ The goal of Nano R1 is to explore how reinforcement learning agents can learn lo
 
 ## 🚀 Features
 
+- 📚 Trains on **GSM8K** (Grade School Math 8K) dataset
 - 🧠 Trained using **Reinforcement Learning (RL)**
-- 🔁 Step-by-step reasoning simulation
-- ⚙️ Custom lightweight environment
+- 🧮 Performs step-by-step reasoning to solve math problems
+- 🔬 Compact model size suitable for low-resource training
 - 📈 Basic reward feedback loop for learning
 - 📦 Modular code structure for ease of experimentation
 
@@ -25,8 +26,7 @@ The goal of Nano R1 is to explore how reinforcement learning agents can learn lo
 - 🐍 Python
 - 🧠 TensorFlow / PyTorch (whichever you used)
 - 📊 NumPy
-
----
+- 🤖 Hugging Face Datasets
 
 ---
 base_model: unsloth/Qwen2.5-3B-Instruct-unsloth-bnb-4bit
