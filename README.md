@@ -1,3 +1,33 @@
+# 🤖 Nano R1 – A Lightweight Reasoning AI Model
+
+**Nano R1** is a compact AI project inspired by the architecture of R1, designed to perform basic reasoning tasks using **reinforcement learning**. This project demonstrates how a minimal model can be trained from scratch to perform decision-making and reasoning using a simplified environment.
+
+---
+
+## 🧠 Core Idea
+
+The goal of Nano R1 is to explore how reinforcement learning agents can learn logical or step-by-step reasoning behaviors, even with limited resources and a simplified architecture.
+
+---
+
+## 🚀 Features
+
+- 🧠 Trained using **Reinforcement Learning (RL)**
+- 🔁 Step-by-step reasoning simulation
+- ⚙️ Custom lightweight environment
+- 📈 Basic reward feedback loop for learning
+- 📦 Modular code structure for ease of experimentation
+
+---
+
+## 📚 Tech Stack
+
+- 🐍 Python
+- 🧠 TensorFlow / PyTorch (whichever you used)
+- 📊 NumPy
+
+---
+
 ---
 base_model: unsloth/Qwen2.5-3B-Instruct-unsloth-bnb-4bit
 library_name: peft
